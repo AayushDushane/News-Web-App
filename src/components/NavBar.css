@@ -1,0 +1,52 @@
+/* NavBar.css */
+
+/* Add background color to the navbar with reduced opacity */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8); /* Black background with 80% opacity */
+  border-bottom: 1px solid #dee2e6; /* Add a bottom border */
+  width: 100%; /* Make the navbar take the full width of the viewport */
+  top: 0; /* Position the navbar at the top */
+  z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+/* Increase font size for the brand */
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff; /* White text */
+}
+
+/* Text color for navbar links */
+.navbar-nav .nav-link {
+  color: #fff; /* White text */
+  margin-right: 15px; /* Add margin between navbar links */
+}
+
+/* Change text color on hover */
+.navbar-nav .nav-link:hover {
+  color: #ff0; /* Yellow text on hover */
+}
+
+/* Set width for the search input */
+.form-control {
+  width: 250px;
+}
+
+/* Change color of the search button */
+.btn-outline-success {
+  color: #fff; /* White text */
+  background-color: #ff6f00; /* Green background */
+  border-color: #0c0e0c; /* Green border */
+}
+
+/* Change color of the search button on hover */
+.btn-outline-success:hover {
+   /* Black text on hover */
+  background-color: #767e1e; /* Dark green background on hover */
+  border-color: #767e1e; /* Dark green border on hover */
+}
+
+
+/* Active link style */
+.navbar-nav .nav-link.active {
+  color: #ff6f00 !important; /* Blue text for active link */
+}

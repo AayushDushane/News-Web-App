@@ -1,0 +1,14 @@
+.error-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8d7da; /* Light red background */
+    border: 2px solid #f5c6cb; /* Red border */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.error-text {
+    font-size: 24px;
+    color: #721c24; /* Dark red text color */
+}
